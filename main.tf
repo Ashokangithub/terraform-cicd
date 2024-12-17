@@ -1,5 +1,7 @@
 provider "aws" {
-    region = "us-west-2"  
+    region = "us-west-2a"
+    AWS_ACCESS_KEY_ID=""
+    AWS_SECRET_ACCESS_KEY=""
 }
 
 resource "aws_instance" "foo" {
